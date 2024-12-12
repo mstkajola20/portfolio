@@ -1,0 +1,233 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+*{
+    font-family: "Open Sans", sans-serif;
+}
+.navbar{
+    padding: 50px 200px;
+    display: flex;
+    justify-content:space-between;
+    align-items: baseline;
+}
+.mary{
+    color: #181818;
+    font-weight: 800;
+    font-size: 45px;
+}
+span{
+    color: #FD6E0A ;
+}
+ul{
+    display: flex;
+    align-items: baseline;
+
+}
+ul li{
+    list-style: none;
+    margin-right: 50px;
+}
+li a{
+    text-decoration: none;
+    color: #474747;
+    font-size: 20px;
+}
+.praimary-button{
+    background-color: #FD6E0A;
+    color: #ffffff;
+    border: none;
+    padding: 15px 30px;
+    border-radius: 5px;
+    font-weight: 700;
+    font-size: 20px;
+
+}
+
+.father{
+    display: flex;
+    padding-left: 200px;
+    align-items: center;
+    justify-content: space-between;
+}
+header{
+    background-color: #fff8f3;
+    background-image:url('images/header_bg.png'),url('images/developer.png');
+    background-repeat: no-repeat;
+    background-position: bottom right, left;
+}
+.hi{
+    color: #474747;
+    font-weight: 600;
+    font-size: 45px;
+    margin: 0px;
+}
+.name{
+    color: #181818;
+    font-weight: 700;
+    font-size: 85px;
+    margin: 0px;
+}
+.paragraph{
+    color: #757575;
+    font-weight: 400;
+    font-size: 18px;
+}
+.contact{
+    padding: 15px 22px;
+    color: #FD6E0A;
+    border: 1px solid #FD6E0A;
+    background-color: rgba(255, 255, 255, 0);
+    border-radius: 5px;
+    font-weight: 700;
+    font-size: 20px;
+    margin-left: 30px;
+    
+}
+.about{
+    width: 1140px;
+    height: 350px;
+    background-color: #fff8f3;
+    margin: 130px auto;
+    border-radius: 10px;
+    padding-top: 130px;
+    padding-bottom: 130px;
+    text-align: center;
+}
+.aboutme{
+    margin: 0px 150px;
+    /* border: 1px solid black; */
+}
+.fatheroffourson{
+    display: flex;
+    justify-content: space-around;
+}
+.aboutMeHeading{
+    font-weight: 700;
+    font-size: 35px;
+}
+.paragraph2{
+    font-size: 18px;
+    color: #757575;
+}
+.Name{
+    color: #757575;
+    font-size: 20px;
+    margin-bottom: 0px;
+}
+.bolder{
+    color: #474747;
+    font-weight: 700;
+    font-size: 20px;
+    margin-top: 0px;
+    
+}
+.whatIDo{
+    margin: 0px 200px;
+    text-align: center;
+}
+.whatIDoTitle{
+    font-weight: 700;
+    font-size: 35px;
+}
+.whatIDoPara{
+    padding: 30px 115px 50px;
+    font-size: 18px;
+    color: #757575;
+}
+.cardContainer{
+    display: flex;
+    text-align: left;
+}
+.containerSon{
+    /* border: 2px solid #FD6E0A; */
+    margin: 24px;
+    padding: 30px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.03), 0 6px 20px 0 rgba(0, 0, 0, 0.03);
+    border-radius: 5px;
+    
+    
+}
+.cardTitle{
+    margin: 30px 0px 20px;
+
+}
+.summaryTitle{
+    text-align: center;
+    font-weight: 700;
+    font-size: 35px;
+    margin-bottom: 100px;
+    margin-top: 100px;
+}
+.commonForEduExp{
+    display: flex;
+    margin: 0px 200px;
+  
+}
+.edu{
+    margin-right: 70px;
+}
+.summaryExpHeading{
+    font-weight: 700;
+    font-size: 30px;
+    color: #474747;
+    margin-bottom: 30px;
+}
+.commonTitle{
+    font-weight: 700;
+    font-size: 25px;
+    color: #474747;
+
+}
+.commonPara{
+    font-weight: 600;
+    font-size: 20px;
+    color: #757575;
+    margin: 5px 0px 20px;
+}
+.commonParaSm{
+    font-size: 16px;
+    color: #757575;
+}
+hr{
+    margin: 30px 0px;
+}
+.downloadButtonDiv{
+    text-align: center;
+    margin: 50px 0px 100px;
+}
+.footer{
+    background-color: #fff8f3;
+    padding: 130px 200px;
+    display: flex;
+    justify-content: space-between;
+}
+.footerSon1{
+    width: 50%;
+    margin-right: 100px;
+}
+.footerSon2{
+    width: 50%;
+
+}
+.footerTitle{
+    font-weight: 700;
+    font-size: 35px;
+}
+.footerPara{
+    font-size: 16px;
+    color: #474747;
+    margin: 20px 0px 30px;
+}
+.twitter{
+    margin: 0px 25px 0px;
+}
+.textInput{
+    margin: 25px 0px;
+    border: none;
+    padding: 18px 300px 18px 30px;
+    border-radius: 5px;
+}
+.textArea{
+    margin: 25px 0px;
+    border: none;
+    padding: 18px 300px 130px 30px;
+    border-radius: 5px;
+}
