@@ -231,3 +231,12 @@ hr{
     padding: 18px 300px 130px 30px;
     border-radius: 5px;
 }
+
+
+
+@media only screen and
+(max-width:600px){
+    flex-direction: column;
+    margin: 0px 30px;
+}
+
